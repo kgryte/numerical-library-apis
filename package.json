@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "name": "numerical-library-apis",
+  "version": "0.0.0",
+  "description": "Numerical library APIs.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Athan Reines",
+    "url": "https://github.com/kgryte"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "url": "https://github.com/kgryte"
+    }
+  ],
+  "bin": {
+    "numerical-library-apis": "./bin/cli"
+  },
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "scripts": {
+    "build": ""
+  },
+  "homepage": "https://github.com/kgryte/numerical-library-apis",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kgryte/numerical-library-apis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kgryte/numerical-library-apis/issues"
+  },
+  "dependencies": {
+    "@stdlib/stdlib": "0.0.90",
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
