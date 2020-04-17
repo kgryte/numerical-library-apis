@@ -20,16 +20,14 @@
 
 var join = require( 'path' ).join;
 var writeFileSync = require( '@stdlib/fs/write-file' ).sync;
-var scrape = require( './../../lib/numpy.js' );
+var scrape = require( './../../lib/cupy.js' );
 var json2csv = require( './../../lib/json2csv.js' );
-var sort = require( './../../lib/sort.js' );
 
 (async function run() {
 	var results;
 	var fpath;
 
-	results = require( './data.json' ); //await scrape();
-	results = sort( results );
+	results = await scrape();
 
 	fpath = join( __dirname, 'data.json' );
 	writeFileSync( fpath, JSON.stringify( results ) );
