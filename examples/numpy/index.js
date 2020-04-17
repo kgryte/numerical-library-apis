@@ -28,8 +28,7 @@ var sort = require( './../../lib/sort.js' );
 	var results;
 	var fpath;
 
-	results = require( './data.json' ); //await scrape();
-	results = sort( results );
+	results = await scrape();
 
 	fpath = join( __dirname, 'data.json' );
 	writeFileSync( fpath, JSON.stringify( results ) );
