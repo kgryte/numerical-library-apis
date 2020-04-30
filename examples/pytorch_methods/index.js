@@ -20,7 +20,7 @@
 
 var join = require( 'path' ).join;
 var writeFileSync = require( '@stdlib/fs/write-file' ).sync;
-var scrape = require( './../../lib/pytorch.js' );
+var scrape = require( './../../lib/pytorch_methods.js' );
 var json2csv = require( './../../lib/json2csv.js' );
 var sort = require( './../../lib/sort.js' );
 
