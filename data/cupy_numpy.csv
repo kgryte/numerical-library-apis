@@ -1,5 +1,5 @@
 name,numpy
-"cupy.abs","numpy.abs",
+"cupy.abs","numpy.abs"
 "cupy.absolute","numpy.absolute"
 "cupy.add","numpy.add"
 "cupy.all","numpy.all"
