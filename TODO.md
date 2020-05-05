@@ -17,7 +17,50 @@
     -   `1` present and `0` absent
 
 4.  Dask missing
-    -   all
+    -   all (due to CSV bug)
     -   trace
     -   unify_chunks
     -   random.permutation
+
+5.  regenerate CSVs now that bug fixed
+
+6.  generate X-to-Y JSON files
+
+7.  CuPy missing
+    -  abs (prob because no doc link)
+    -  absolute (due to CSV bug)
+    -  max
+    -  min
+    -  fromfile
+    -  round_
+    -  searchsorted
+    -  size
+    -  NumPy cross references
+        -  `count_nonzero`
+        -  `diagflat`
+        -  `divide`
+        -  `copy`
+        -  `in1d`
+        -  `iscomplex`
+        -  `iscomplexobj`
+        -  `isfortran`
+        -  `isin`
+        -  `isreal`
+        -  `isrealobj`
+        -  `linalg.matrix_power`
+        -  `linalg.norm`
+        -  `linspace`
+        -  `logspace`
+        -  `matmul`
+        -  `mod`
+        -  `nan_to_num`
+        -  `non_equal`
+        -  `pad`
+        -  `random.randint`
+        -  `random.random_integers`
+        -  `random.random`
+        -  `random.ranf`
+        -  `random.sample`
+        -  `random.seed`
+        -  `vsplit`
+        -  `vstack`

@@ -248,7 +248,7 @@ name,numpy
 "random.vonmises","numpy.random.mtrand.RandomState.vonmises"
 "random.wald","numpy.random.mtrand.RandomState.wald"
 "random.weibull","numpy.random.mtrand.RandomState.weibull"
-"random.zipf",""
+"random.zipf","numpy.random.mtrand.RandomState.zipf"
 "ravel","numpy.ravel"
 "real","numpy.real"
 "rechunk",""
