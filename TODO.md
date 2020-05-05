@@ -2,7 +2,7 @@
 
 > TODO items.
 
-1.  [Sparse](https://github.com/pydata/sparse)
+1.  
 2.  [MXNet](https://numpy.mxnet.io/api/deepnumpy/routines.array-creation.html)
 3.  Perform join across various databases
     -   Use NumPy as reference
