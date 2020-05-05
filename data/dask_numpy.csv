@@ -231,7 +231,7 @@ name,numpy
 "random.noncentral_f","numpy.random.mtrand.RandomState.noncentral_f"
 "random.normal","numpy.random.mtrand.RandomState.normal"
 "random.pareto","numpy.random.mtrand.RandomState.pareto"
-"random.permutation",""numpy.random.mtrand.RandomState.permutation""
+"random.permutation","numpy.random.mtrand.RandomState.permutation"
 "random.poisson","numpy.random.mtrand.RandomState.poisson"
 "random.power","numpy.random.mtrand.RandomState.power"
 "random.randint","numpy.random.mtrand.RandomState.randint"
