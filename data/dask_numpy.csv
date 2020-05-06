@@ -34,7 +34,6 @@ name,numpy
 "bitwise_xor","numpy.bitwise_xor"
 "block","numpy.block"
 "blockwise",""
-"blockwise",""
 "broadcast_arrays","numpy.broadcast_arrays"
 "broadcast_to","numpy.broadcast_to"
 "ceil","numpy.ceil"

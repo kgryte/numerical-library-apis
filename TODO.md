@@ -21,6 +21,7 @@
     -   trace
     -   unify_chunks
     -   random.permutation
+    -   blockwise appears twice
 
 5.  regenerate CSVs now that bug fixed
 
@@ -64,3 +65,7 @@
         -  `random.seed`
         -  `vsplit`
         -  `vstack`
+
+8.  JAX missing
+    -   abs (due to CSV bug)
+    -   
