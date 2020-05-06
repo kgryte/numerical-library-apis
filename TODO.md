@@ -2,34 +2,30 @@
 
 > TODO items.
 
-1.  
-2.  [MXNet](https://numpy.mxnet.io/api/deepnumpy/routines.array-creation.html)
+1.  [MXNet](https://numpy.mxnet.io/api/deepnumpy/routines.array-creation.html)
+2.  
 3.  Perform join across various databases
     -   Use NumPy as reference
         -   [x] CuPy
-        -   [ ] Dask
-        -   [ ] JAX
-        -   [ ] PyTorch
-        -   [ ] Sparse
+        -   [x] Dask
+        -   [x] JAX
+        -   [x] PyTorch
+        -   [x] Sparse
         -   [ ] Tensorflow
     -   Ability to generate a pretty HTML table (color coded)
     -   Output CSV with headers being libraries and rows being NumPy APIs
     -   `1` present and `0` absent
 
 4.  Dask missing
-    -   all (due to CSV bug)
     -   trace
     -   unify_chunks
     -   random.permutation
     -   blockwise appears twice
 
-5.  regenerate CSVs now that bug fixed
+5.  generate X-to-Y JSON files
 
-6.  generate X-to-Y JSON files
-
-7.  CuPy missing
+6.  CuPy missing
     -  abs (prob because no doc link)
-    -  absolute (due to CSV bug)
     -  max
     -  min
     -  fromfile
@@ -65,7 +61,3 @@
         -  `random.seed`
         -  `vsplit`
         -  `vstack`
-
-8.  JAX missing
-    -   abs (due to CSV bug)
-    -   
