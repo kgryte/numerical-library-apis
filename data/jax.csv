@@ -264,4 +264,3 @@ name,description,signature,url
 "where","Return elements chosen from x or y depending on condition.","where(condition[\, x\, y])","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.where.html#jax.numpy.where"
 "zeros","Return a new array of given shape and type\, filled with zeros.","zeros(shape[\, dtype])","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.zeros.html#jax.numpy.zeros"
 "zeros_like","Return an array of zeros with the same shape and type as a given array.","zeros_like(x[\, dtype])","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.zeros_like.html#jax.numpy.zeros_like"
-

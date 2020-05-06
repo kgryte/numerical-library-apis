@@ -1,4 +1,5 @@
 name,description,signature,url
+"numpy.absolute","Calculate the absolute value element-wise.","numpy.absolute(x\, /\, out=None\, *\, where=True\, casting='same_kind'\, order='K'\, dtype=None\, subok=True[\, signature\, extobj]) = <ufunc 'absolute'>","https://docs.scipy.org/doc/numpy/reference/generated/numpy.absolute.html#numpy.absolute"
 "numpy.add","Add arguments element-wise.","numpy.add(x1\, x2\, /\, out=None\, *\, where=True\, casting='same_kind'\, order='K'\, dtype=None\, subok=True[\, signature\, extobj]) = <ufunc 'add'>","https://docs.scipy.org/doc/numpy/reference/generated/numpy.add.html#numpy.add"
 "numpy.all","Test whether all array elements along a given axis evaluate to True.","numpy.all(a\, axis=None\, out=None\, keepdims=<no value>)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.all.html#numpy.all"
 "numpy.allclose","Returns True if two arrays are element-wise equal within a tolerance.","numpy.allclose(a\, b\, rtol=1e-05\, atol=1e-08\, equal_nan=False)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.allclose.html#numpy.allclose"

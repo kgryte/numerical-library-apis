@@ -1,4 +1,5 @@
 name,description,signature,url
+"tf.argsort","Returns the indices of a tensor that give its sorted order along an axis.","tf.argsort","https://www.tensorflow.org/api_docs/python/tf/argsort"
 "tf.batch_to_space","BatchToSpace for N-D tensors of type T.","tf.batch_to_space","https://www.tensorflow.org/api_docs/python/tf/batch_to_space"
 "tf.bitcast","Bitcasts a tensor from one type to another without copying data.","tf.bitcast","https://www.tensorflow.org/api_docs/python/tf/bitcast"
 "tf.bitwise.bitwise_and","Elementwise computes the bitwise AND of x and y.","tf.bitwise.bitwise_and","https://www.tensorflow.org/api_docs/python/tf/bitwise/bitwise_and"

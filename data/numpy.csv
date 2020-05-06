@@ -764,4 +764,3 @@ name,description,signature,url
 "numpy.where","Return elements chosen from x or y depending on condition.","numpy.where(condition[\, x\, y])","https://docs.scipy.org/doc/numpy/reference/generated/numpy.where.html#numpy.where"
 "numpy.zeros","Return a new array of given shape and type\, filled with zeros.","numpy.zeros(shape\, dtype=float\, order='C')","https://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros.html#numpy.zeros"
 "numpy.zeros_like","Return an array of zeros with the same shape and type as a given array.","numpy.zeros_like(a\, dtype=None\, order='K'\, subok=True\, shape=None)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros_like.html#numpy.zeros_like"
-

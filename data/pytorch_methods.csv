@@ -489,4 +489,3 @@ self.view_as(other) is equivalent to self.view(other.size()).","tensor.view_as(o
 "tensor.where","self.where(condition\, y) is equivalent to torch.where(condition\, self\, y).
 See torch.where()","tensor.where(condition\, y) → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.where"
 "tensor.zero_","Fills self tensor with zeros.","tensor.zero_() → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.zero_"
-

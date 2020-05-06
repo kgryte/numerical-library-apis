@@ -1,4 +1,5 @@
 name,description,signature,url
+"class numpy.DataSource","A generic data source file (file\, http\, ftp\, …).","class numpy.DataSource(destpath='.')","https://docs.scipy.org/doc/numpy/reference/generated/numpy.DataSource.html#numpy.DataSource"
 "class numpy.MachAr","Diagnosing machine parameters.","class numpy.MachAr(float_conv=<class 'float'>\, int_conv=<class 'int'>\, float_to_float=<class 'float'>\, float_to_str=<function MachAr.<lambda>>\, title='Python floating point number')","https://docs.scipy.org/doc/numpy/reference/generated/numpy.MachAr.html#numpy.MachAr"
 "class numpy.broadcast","Produce an object that mimics broadcasting.","class numpy.broadcast","https://docs.scipy.org/doc/numpy/reference/generated/numpy.broadcast.html#numpy.broadcast"
 "class numpy.busdaycalendar","A business day calendar object that efficiently stores information defining valid days for the busday family of functions.","class numpy.busdaycalendar(weekmask='1111100'\, holidays=None)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.busdaycalendar.html#numpy.busdaycalendar"

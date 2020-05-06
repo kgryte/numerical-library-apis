@@ -1,4 +1,5 @@
 name,description,signature,url
+"ndarray","An array object represents a multidimensional\, homogeneous array of fixed-size items.","ndarray(shape[\, dtype\, buffer\, offset\, …])","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html#numpy.ndarray"
 "ndarray.T","The transposed array.","ndarray.T","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.T.html#numpy.ndarray.T"
 "ndarray.__abs__","","ndarray.__abs__(self)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__abs__.html#numpy.ndarray.__abs__"
 "ndarray.__add__","Return self+value.","ndarray.__add__(self\, value\, /)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__add__.html#numpy.ndarray.__add__"

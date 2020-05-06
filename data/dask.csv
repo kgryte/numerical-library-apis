@@ -304,4 +304,3 @@ name,description,signature,url
 "where","This docstring was copied from numpy.where.","where(condition\, [x\, y])","https://docs.dask.org/en/latest/array-api.html#dask.array.where"
 "zeros","Blocked variant of zeros","zeros(*args\, **kwargs)","https://docs.dask.org/en/latest/array-api.html#dask.array.zeros"
 "zeros_like","Return an array of zeros with the same shape and type as a given array.","zeros_like(a[\, dtype\, chunks])","https://docs.dask.org/en/latest/array-api.html#dask.array.zeros_like"
-

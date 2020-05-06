@@ -1,4 +1,5 @@
 name,description,signature,url
+"all","Test whether all array elements along a given axis evaluate to True.","all(a[\, axis\, keepdims\, split_every\, out])","https://docs.dask.org/en/latest/array-api.html#dask.array.all"
 "allclose","Returns True if two arrays are element-wise equal within a tolerance.","allclose(arr1\, arr2[\, rtol\, atol\, equal_nan])","https://docs.dask.org/en/latest/array-api.html#dask.array.allclose"
 "angle","Return the angle of the complex argument.","angle(x[\, deg])","https://docs.dask.org/en/latest/array-api.html#dask.array.angle"
 "any","Test whether any array element along a given axis evaluates to True.","any(a[\, axis\, keepdims\, split_every\, out])","https://docs.dask.org/en/latest/array-api.html#dask.array.any"

@@ -1,4 +1,5 @@
 name,description,signature,url
+"tensor.T","Is this Tensor with its dimensions reversed.","tensor.T","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.T"
 "tensor.abs","See torch.abs()","tensor.abs() → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.abs"
 "tensor.abs_","In-place version of abs()","tensor.abs_() → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.abs_"
 "tensor.acos","See torch.acos()","tensor.acos() → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.acos"

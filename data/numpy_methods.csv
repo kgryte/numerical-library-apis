@@ -121,4 +121,3 @@ name,description,signature,url
 "ndarray.transpose","Returns a view of the array with axes transposed.","ndarray.transpose(*axes)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.transpose.html#numpy.ndarray.transpose"
 "ndarray.var","Returns the variance of the array elements\, along given axis.","ndarray.var([axis\, dtype\, out\, ddof\, keepdims])","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.var.html#numpy.ndarray.var"
 "ndarray.view","New view of array with the same data.","ndarray.view([dtype\, type])","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.view.html#numpy.ndarray.view"
-

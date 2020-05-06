@@ -64,7 +64,7 @@ function main() {
 			console.error( data.message );
 			continue;
 		}
-		tmp = json2csv( data ) + '\n';
+		tmp = json2csv( data );
 		fpath = resolve( dpath, replace( f, '.json', '.csv' ) );
 		tmp = writeFile( fpath, tmp, fopts );
 		if ( tmp instanceof Error ) {

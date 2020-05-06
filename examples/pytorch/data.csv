@@ -1,4 +1,5 @@
 name,description,signature,url
+"device","Generator.device -> device","device","https://pytorch.org/docs/stable/torch.html#torch._C.Generator.device"
 "torch.abs","Computes the element-wise absolute value of the given input tensor.","torch.abs(input\, out=None) → Tensor","https://pytorch.org/docs/stable/torch.html#torch.abs"
 "torch.acos","Returns a new tensor with the arccosine  of the elements of input.","torch.acos(input\, out=None) → Tensor","https://pytorch.org/docs/stable/torch.html#torch.acos"
 "torch.add","  torch.add(input\, other\, out=None) ","torch.add()","https://pytorch.org/docs/stable/torch.html#torch.add"

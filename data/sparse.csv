@@ -38,4 +38,3 @@ name,description,signature,url
 "where","Select values from either x or y depending on condition.","where(condition[\, x\, y])","https://sparse.pydata.org/en/latest/generated/sparse.where.html#sparse.where"
 "zeros","Return a SparseArray of given shape and type\, filled with zeros.","zeros(shape[\, dtype\, format\, compressed_axes])","https://sparse.pydata.org/en/latest/generated/sparse.zeros.html#sparse.zeros"
 "zeros_like","Return a SparseArray of zeros with the same shape and type as a.","zeros_like(a[\, dtype\, format\, compressed_axes])","https://sparse.pydata.org/en/latest/generated/sparse.zeros_like.html#sparse.zeros_like"
-
