@@ -10,7 +10,7 @@ name,numpy
 "torch.addr",""
 "torch.allclose","numpy.allclose"
 "torch.angle","numpy.angle"
-"torch.arange","numply.arange"
+"torch.arange","numpy.arange"
 "torch.argmax","numpy.argmax"
 "torch.argmin","numpy.argmin"
 "torch.argsort","numpy.argsort"
