@@ -1,4 +1,5 @@
 name,description,signature,url
+"ndarray","An array object represents a multidimensional\, homogeneous array of fixed-size items.","ndarray(shape[\, dtype\, buffer\, offset\, …])","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html#numpy.ndarray"
 "ndarray.T","The transposed array.","ndarray.T","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.T.html#numpy.ndarray.T"
 "ndarray.__abs__","","ndarray.__abs__(self)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__abs__.html#numpy.ndarray.__abs__"
 "ndarray.__add__","Return self+value.","ndarray.__add__(self\, value\, /)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__add__.html#numpy.ndarray.__add__"
@@ -120,3 +121,4 @@ name,description,signature,url
 "ndarray.transpose","Returns a view of the array with axes transposed.","ndarray.transpose(*axes)","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.transpose.html#numpy.ndarray.transpose"
 "ndarray.var","Returns the variance of the array elements\, along given axis.","ndarray.var([axis\, dtype\, out\, ddof\, keepdims])","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.var.html#numpy.ndarray.var"
 "ndarray.view","New view of array with the same data.","ndarray.view([dtype\, type])","https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.view.html#numpy.ndarray.view"
+

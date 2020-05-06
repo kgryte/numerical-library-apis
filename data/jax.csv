@@ -1,4 +1,5 @@
 name,description,signature,url
+"abs","Calculate the absolute value element-wise.","abs(x)","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.abs.html#jax.numpy.abs"
 "absolute","Calculate the absolute value element-wise.","absolute(x)","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.absolute.html#jax.numpy.absolute"
 "add","Add arguments element-wise.","add(x1\, x2)","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.add.html#jax.numpy.add"
 "all","Test whether all array elements along a given axis evaluate to True.","all(a[\, axis\, dtype\, out\, keepdims])","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.all.html#jax.numpy.all"
@@ -263,3 +264,4 @@ name,description,signature,url
 "where","Return elements chosen from x or y depending on condition.","where(condition[\, x\, y])","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.where.html#jax.numpy.where"
 "zeros","Return a new array of given shape and type\, filled with zeros.","zeros(shape[\, dtype])","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.zeros.html#jax.numpy.zeros"
 "zeros_like","Return an array of zeros with the same shape and type as a given array.","zeros_like(x[\, dtype])","https://jax.readthedocs.io/en/latest/_autosummary/jax.numpy.zeros_like.html#jax.numpy.zeros_like"
+

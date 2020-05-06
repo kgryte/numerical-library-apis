@@ -1,4 +1,5 @@
 name,description,signature,url
+"COO","A sparse multidimensional array.","COO(coords[\, data\, shape\, has_duplicates\, …])","https://sparse.pydata.org/en/latest/generated/sparse.COO.html#sparse.COO"
 "DOK","A class for building sparse multidimensional arrays.","DOK(shape[\, data\, dtype\, fill_value])","https://sparse.pydata.org/en/latest/generated/sparse.DOK.html#sparse.DOK"
 "SparseArray","An abstract base class for all the sparse array classes.","SparseArray(shape[\, fill_value])","https://sparse.pydata.org/en/latest/generated/sparse.SparseArray.html#sparse.SparseArray"
 "argwhere","Find the indices of array elements that are non-zero\, grouped by element.","argwhere(a)","https://sparse.pydata.org/en/latest/generated/sparse.argwhere.html#sparse.argwhere"
@@ -37,3 +38,4 @@ name,description,signature,url
 "where","Select values from either x or y depending on condition.","where(condition[\, x\, y])","https://sparse.pydata.org/en/latest/generated/sparse.where.html#sparse.where"
 "zeros","Return a SparseArray of given shape and type\, filled with zeros.","zeros(shape[\, dtype\, format\, compressed_axes])","https://sparse.pydata.org/en/latest/generated/sparse.zeros.html#sparse.zeros"
 "zeros_like","Return a SparseArray of zeros with the same shape and type as a.","zeros_like(a[\, dtype\, format\, compressed_axes])","https://sparse.pydata.org/en/latest/generated/sparse.zeros_like.html#sparse.zeros_like"
+

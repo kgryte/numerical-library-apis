@@ -1,4 +1,5 @@
 name,description,signature,url
+"all","Test whether all array elements along a given axis evaluate to True.","all(a[\, axis\, keepdims\, split_every\, out])","https://docs.dask.org/en/latest/array-api.html#dask.array.all"
 "allclose","Returns True if two arrays are element-wise equal within a tolerance.","allclose(arr1\, arr2[\, rtol\, atol\, equal_nan])","https://docs.dask.org/en/latest/array-api.html#dask.array.allclose"
 "angle","Return the angle of the complex argument.","angle(x[\, deg])","https://docs.dask.org/en/latest/array-api.html#dask.array.angle"
 "any","Test whether any array element along a given axis evaluates to True.","any(a[\, axis\, keepdims\, split_every\, out])","https://docs.dask.org/en/latest/array-api.html#dask.array.any"
@@ -303,3 +304,4 @@ name,description,signature,url
 "where","This docstring was copied from numpy.where.","where(condition\, [x\, y])","https://docs.dask.org/en/latest/array-api.html#dask.array.where"
 "zeros","Blocked variant of zeros","zeros(*args\, **kwargs)","https://docs.dask.org/en/latest/array-api.html#dask.array.zeros"
 "zeros_like","Return an array of zeros with the same shape and type as a given array.","zeros_like(a[\, dtype\, chunks])","https://docs.dask.org/en/latest/array-api.html#dask.array.zeros_like"
+

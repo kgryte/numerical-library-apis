@@ -1,4 +1,5 @@
 name,description,signature,url
+"tensor.T","Is this Tensor with its dimensions reversed.","tensor.T","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.T"
 "tensor.abs","See torch.abs()","tensor.abs() → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.abs"
 "tensor.abs_","In-place version of abs()","tensor.abs_() → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.abs_"
 "tensor.acos","See torch.acos()","tensor.acos() → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.acos"
@@ -488,3 +489,4 @@ self.view_as(other) is equivalent to self.view(other.size()).","tensor.view_as(o
 "tensor.where","self.where(condition\, y) is equivalent to torch.where(condition\, self\, y).
 See torch.where()","tensor.where(condition\, y) → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.where"
 "tensor.zero_","Fills self tensor with zeros.","tensor.zero_() → Tensor","https://pytorch.org/docs/stable/tensors.html#torch.Tensor.zero_"
+
