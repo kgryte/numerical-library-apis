@@ -237,7 +237,7 @@ name,numpy
 "subtract","numpy.subtract"
 "sum","numpy.sum"
 "svd","numpy.linalg.svd"
-"swapaxes",""numpy.swapaxes
+"swapaxes","numpy.swapaxes"
 "take","numpy.take"
 "take_along_axis","numpy.take_along_axis"
 "tan","numpy.tan"
