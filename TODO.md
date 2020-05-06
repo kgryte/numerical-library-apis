@@ -14,7 +14,6 @@
         -   [ ] Tensorflow
     -   Ability to generate a pretty HTML table (color coded)
     -   Output CSV with headers being libraries and rows being NumPy APIs
-    -   `1` present and `0` absent
 
 4.  Dask missing
     -   trace
