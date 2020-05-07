@@ -57,3 +57,10 @@
         -  `vstack`
 
 5.  Add sparse methods, similar to the `numpy_methods` database
+
+6.  Comments
+
+    -  would seem that any kind of tensor/ndarray API should be as limited as possible and focus on array attributes (shape, dtype, etc), creation (ones, zeros, full, etc), manipulation (transpose, sort, tile, squeeze, etc), and access/traversal (e.g., indexing, where/find, etc)
+    -  a tensor/ndarray API should provide a universal interface to apply, e.g., univariate functions elementwise (aka, ufuncs) rather than expose a grab bag of special functions (e.g., sin, cos, etc) which can be implemented and imported via another library and then applied to array elements
+    -  a tensor/ndarray API should provide a universal interface to perform axis-wise operations (e.g., sums, means, stats, etc)
+    -  linear algebra, machine learning, etc, should then be a layer which sits on top of, and consumes, this standardized tensor/ndarray API
