@@ -28,6 +28,7 @@ var extname = require( '@stdlib/utils/extname' );
 var keyBy = require( '@stdlib/utils/key-by' );
 var objectKeys = require( '@stdlib/utils/keys' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
+var json2csv = require( './../lib/json2csv.js' );
 
 
 // FUNCTIONS //
@@ -150,6 +151,14 @@ function main() {
 	// Save the table to file:
 	fpath = resolve( __dirname, '..', 'data', 'joins', 'unified_join.json' );
 	tmp = writeFile( fpath, JSON.stringify( out ) + '\n', fopts );
+	if ( tmp instanceof Error ) {
+		console.error( tmp.message );
+		return;
+	}
+	// Generate a CSV file:
+	fpath = resolve( __dirname, '..', 'data', 'joins', 'unified_join.csv' );
+	tmp = json2csv( out );
+	tmp = writeFile( fpath, tmp, fopts );
 	if ( tmp instanceof Error ) {
 		console.error( tmp.message );
 		return;
