@@ -28,6 +28,7 @@ var extname = require( '@stdlib/utils/extname' );
 var keyBy = require( '@stdlib/utils/key-by' );
 var objectKeys = require( '@stdlib/utils/keys' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
+var replace = require( '@stdlib/string/replace' );
 var json2csv = require( './../lib/json2csv.js' );
 
 
@@ -64,6 +65,7 @@ function keyByCallback( prop ) {
 * @private
 */
 function main() {
+	var prefix;
 	var files;
 	var dpath;
 	var fpath;
@@ -112,9 +114,12 @@ function main() {
 			console.error( data.message );
 			continue;
 		}
-		// We assume the naming convention `XXXXXX_numpy.json`:
+		// We assume the naming convention `XXXXXX_numpy.json` where `XXXXXX` corresponds to the library name:
 		l = f.split( '_numpy.' )[ 0 ];
 		libs.push( l );
+
+		// We assume that the prefix convention, if present, matches the library name:
+		prefix = ( l === 'pytorch' ) ? 'torch' : l;
 
 		for ( j = 0; j < data.length; j++ ) {
 			tmp = data[ j ];
@@ -127,7 +132,7 @@ function main() {
 				if ( !hasOwnProp( r, '__join__' ) ) {
 					r.__join__ = {};
 				}
-				r.__join__[ l ] = tmp.name;
+				r.__join__[ l ] = replace( tmp.name, prefix+'.', '' ); // replace any library name prefixes (e.g., `torch.add` => `add`)
 			}
 		}
 	}

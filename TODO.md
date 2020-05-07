@@ -11,8 +11,6 @@
         -   [x] PyTorch
         -   [x] Sparse
         -   [ ] Tensorflow
-    -   Ability to generate a pretty HTML table (color coded)
-    -   Output CSV with headers being libraries and rows being NumPy APIs
 
 3.  Dask missing
     -   trace
