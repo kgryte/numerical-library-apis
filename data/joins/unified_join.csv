@@ -1,4 +1,4 @@
-numpy,cupy,dask,jax,pytorch,sparse
+numpy,cupy,dask.array,jax,pytorch,sparse
 "numpy.absolute","absolute","","absolute","abs",""
 "numpy.add","add","","add","add",""
 "numpy.all","all","all","alltrue","",""

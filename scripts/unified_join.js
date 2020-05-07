@@ -116,6 +116,9 @@ function main() {
 		}
 		// We assume the naming convention `XXXXXX_numpy.json` where `XXXXXX` corresponds to the library name:
 		l = f.split( '_numpy.' )[ 0 ];
+		if ( l === 'dask' ) {
+			l += '.array';
+		}
 		libs.push( l );
 
 		// We assume that the prefix convention, if present, matches the library name:
