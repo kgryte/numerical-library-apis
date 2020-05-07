@@ -99,11 +99,11 @@ function main() {
 	// Load the individual join data:
 	dpath = resolve( __dirname, '..', 'data', 'joins' );
 	files = readDir( dpath );
-	libs = [];
+	libs = [ 'numpy' ];
 	for ( i = 0; i < files.length; i++ ) {
 		f = files[ i ];
 		ext = extname( f );
-		if ( ext !== '.json' ) {
+		if ( ext !== '.json' || /unified_join/.test( f ) ) {
 			continue;
 		}
 		fpath = resolve( dpath, f );
@@ -133,20 +133,22 @@ function main() {
 	}
 	// Generate a hash table mapping each NumPy interface to its equivalent in other libraries...
 	keys = objectKeys( ref ).sort();
-	out = {};
+	out = [];
 	for ( i = 0; i < keys.length; i++ ) {
 		k = keys[ i ];
 		r = ref[ k ].__join__;
 		tmp = {};
 		for ( j = 0; j < libs.length; j++ ) {
 			l = libs[ j ];
-			if ( hasOwnProp( r, l ) ) {
+			if ( l === 'numpy' ) {
+				tmp[ l ] = k;
+			} else if ( hasOwnProp( r, l ) ) {
 				tmp[ l ] = r[ l ];
 			} else {
 				tmp[ l ] = '';
 			}
 		}
-		out[ k ] = tmp;
+		out.push( tmp );
 	}
 	// Save the table to file:
 	fpath = resolve( __dirname, '..', 'data', 'joins', 'unified_join.json' );
