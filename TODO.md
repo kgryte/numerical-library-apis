@@ -55,3 +55,5 @@
         -  `random.seed`
         -  `vsplit`
         -  `vstack`
+
+5.  Add sparse methods, similar to the `numpy_methods` database
