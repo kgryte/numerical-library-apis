@@ -3,8 +3,7 @@
 > TODO items.
 
 1.  [MXNet](https://numpy.mxnet.io/api/deepnumpy/routines.array-creation.html)
-2.  
-3.  Perform join across various databases
+2.  Perform join across various databases
     -   Use NumPy as reference
         -   [x] CuPy
         -   [x] Dask
@@ -15,15 +14,13 @@
     -   Ability to generate a pretty HTML table (color coded)
     -   Output CSV with headers being libraries and rows being NumPy APIs
 
-4.  Dask missing
+3.  Dask missing
     -   trace
     -   unify_chunks
     -   random.permutation
     -   blockwise appears twice
 
-5.  generate X-to-Y JSON files
-
-6.  CuPy missing
+4.  CuPy missing
     -  abs (prob because no doc link)
     -  max
     -  min
